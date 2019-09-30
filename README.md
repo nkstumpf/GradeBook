@@ -1,34 +1,42 @@
 # GradeBook
 Week 4 Gateway Final JS Project
 
-App features:
+Features:
 
-- add assignments to the page dynamically
+* Any additional HTML/CSS was added dynamically using Javascript *
 
-- remove assignments from the page dynamically
+- Add assignments to the page dynamically.
 
-- add new students to your roster
+- Remove assignments from the page dynamically.
 
-- adding a student also properly formats their first and last name in the roster dropdown
+- Add new students to the user's "roster".
 
-- adding a student generates a student profile that will display when that student is selected
+- Adding a student also properly formats their first and last name in the roster dropdown menu.
 
-- adding a student generates a username for the student consisting of their first inital and last name
+- Adding a student generates a student profile that will display when that student is selected.
 
-- the assignments form will only submit if you have a student selected
+- Adding a student generates a unique username for the student consisting of their first initial and last name.
 
-- if you do not have a student selected the app will alert you to select a student 
+- The assignments form will only submit an assignment if the user has selected a student from the dropdown menu.
 
-- assignments are students specific
+- If the user does not have a student selected the app will alert the user.
 
-- if you add an assignment to the table it also stores it to the data structure of the student that is currently selected
+- The assignments form will only submit an assignment if the user has all fields completed.
 
-- the table will repopulate data dynamically based on which student is currently selected
+- If the user does not have all fields filled out in the form the app will alert the user.
 
-- this flexibility allows you to add multiple students to the roster and their data will save independently
+- Assignments are students specific.
 
-- since data saves independently you can add multiple assignments to multiple students simultaneiously and all student data is preserved when switching between student profiles. This persists until you refresh the browser
+- If the user adds an assignment to the table it also stores it to the data structure of the student that is currently selected.
 
-- each students gpa will calculate dynamically based on how many assignments you have added to their profile
+- If the user deletes an assignment- It is also deleted from the data structure of the student that is currently selected.
 
-- gpa also adjusts when you remove assignments
+- The table will repopulate data dynamically based on which student is currently selected.
+
+- This flexibility allows the user to add multiple students to the roster and their data will save independently.
+
+- Since data saves independently the user can add multiple assignments to multiple students simultaneously and all student data is preserved when switching between student profiles. This persists until the user refreshes the browser.
+
+- Each students GPA will calculate dynamically based on how many assignments the user has added to the student's profile.
+
+- GPA also adjusts when the user deletes assignments.
